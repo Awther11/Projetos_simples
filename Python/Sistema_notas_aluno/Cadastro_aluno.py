@@ -25,7 +25,7 @@ class Aluno:
         while True:
             try:
                 nota = float(input('Informe a nota do aluno: '))
-                if nota > 0:
+                if nota >= 0 and nota <= 10:
                     return nota
                 else:
                     self.formatar('Nota inválida. Insira uma nota superior a zero')
