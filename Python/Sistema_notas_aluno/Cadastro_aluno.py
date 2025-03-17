@@ -28,7 +28,7 @@ class Aluno:
                 if nota >= 0 and nota <= 10:
                     return nota
                 else:
-                    self.formatar('Nota inválida. Insira uma nota superior a zero')
+                    self.formatar('Nota inválida. Insira uma nota entre 0 e 10')
             except ValueError:
                 self.formatar('Entrada inválida')
 
