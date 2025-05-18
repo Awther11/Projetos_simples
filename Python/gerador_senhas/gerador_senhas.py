@@ -12,9 +12,6 @@ class Gerador_Senha:
     def Validar_Tamanho(self):
         return self.tamanho > 0
     
-    def Variedade(self):
-        pass
-
     def Geração(self):
         if not self.Validar_Tamanho():
             print('O tamanho deve ser superior a ZERO')
